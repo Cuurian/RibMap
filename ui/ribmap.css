@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Sansation';
+    src:url("Sansation_Bold.ttf");
+  }
+
+@keyframes appear {
+    from { transform: scale(0); }
+    to   { transform: scale(1.0); }
+}
+@keyframes appear2 {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+
+.mapArea{
+        margin-top: 0px;
+        background-image: url("img/mapa2.png");
+        width: 2161px;
+        height: 1441px;
+        animation: appear2 2s;
+}
+
+.casa img{
+    animation: appear 1s;
+    box-shadow: black 
+}

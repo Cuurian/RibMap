@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Sansation';
+  src:url("Sansation_Bold.ttf");
+}
+
+
+/* The navigation bar */
+ .navbar {
+  overflow: hidden;
+  background-color: rgb(14, 6, 136);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 5px ;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: rgb(9, 3, 85);
+  color: white;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.navbar{
+  box-shadow: 5px 5px 5px #00000080;
+  z-index: 2;
+  animation: fadein 1s;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+} 
+
+body {
+  font-family: 'Sansation', Fallback, sans-serif;
+}
+
